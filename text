@@ -1,0 +1,55 @@
+Date Of Barith ... DOB-inheritance.js
+    class DOB
+        day
+        month
+        year
+        functions
+            1 - setter for day
+                1.a number and from 1 to 30
+            2 - setter for month
+                2.a number and from 1 to 12
+            3 - setter for year
+                3.a number and from 1900 to 2010
+            4 - getter for day,month,year
+            5 - age return age
+    class address
+        street
+        buildingNumber
+        city
+        country
+        function
+            1 - setters
+            2 - getters
+            3 - full address (return string with all data)
+    class Name
+        firstName
+        lastName
+        function
+            1- setters (length between 2 and 50 must be a string)
+            2- getters
+            3 - getFullName (return string firstName + lastName)
+    class Person
+        dob instance of DOB
+        address instance of address
+        idNumber
+        name instance of Name
+        function
+            1- setter idNumber (length between 2 and 50 must be a string)
+            2- setter dob (instance of dob)
+            3- setter address (instance of address)
+            4- setter name (instance of name)
+            5- getters
+    class Student inherit  Person
+        courses (array)
+        parentId
+        function
+            1- setter courses
+            2 - getter parentId
+
+
+    class Parent inherit  Person
+        studentsId (array)
+        function
+            1- setter studentsId
+            2 - getter studentsId
+
